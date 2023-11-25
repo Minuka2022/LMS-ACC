@@ -41,5 +41,22 @@ namespace LMS_ACC
         {
           
         }
+
+        private void materialButton3_Click(object sender, EventArgs e)
+        {
+            AddBook addBook = new AddBook();
+            addBook.Show();
+        }
+
+        private void materialButton7_Click(object sender, EventArgs e)
+        {
+            AddStudent addStudent = new AddStudent();
+            addStudent.Show();
+        }
+
+        private void materialLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
